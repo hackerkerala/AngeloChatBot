@@ -10,6 +10,7 @@ ARQ_API_KEY = " GFDBDW-ITZGRP-TZQKYH-LDITMI-ARQ"
 LANGUAGE = os.environ.get("LANGUAGE", None)
 ARQ_API_BASE_URL = "https://thearq.tech"
 
+
 bot = Client(":memory:",
              api_id=API_ID,
              api_hash=API_HASH,
